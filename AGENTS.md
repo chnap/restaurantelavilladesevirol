@@ -57,13 +57,13 @@ Datos contrastados el 04/09/2026 con la web oficial `https://www.lavilladeseviro
 
 Existe un conflicto con los datos iniciales aportados desde Instagram, que indicaban `954 045 245` y `8:30-23:30`. No volver a cambiar silenciosamente al dato anterior. Confirmar con el negocio antes de publicar si desea usar otro teléfono u horario.
 
-## Primera fase de imágenes
+## Estado actual de imágenes
 
-- No descargar, generar ni incorporar imágenes reales.
-- No crear ahora una carpeta de imágenes descargadas.
-- Mantener placeholders de calidad con estados de carga y ausencia.
-- Cada slot debe seguir siendo un `<img>` accesible y ocultar el recurso fallido sin mostrar iconos rotos.
-- Mantener las proporciones, recortes y orden al sustituir assets, salvo necesidad editorial de una imagen concreta.
+- La primera fase de placeholders ya está superada. Los slots mantienen sus estados de carga y ausencia, pero ahora tienen assets locales reales.
+- Las fotografías integradas proceden de la web pública oficial y de fotos públicas de ambiente asociadas al restaurante en TheFork. No volver a sustituirlas por stock ni por imágenes generadas.
+- Cada slot sigue siendo un `<img>` accesible y oculta el recurso fallido sin mostrar iconos rotos.
+- Mantener las proporciones, recortes y orden actuales al sustituir o mejorar assets, salvo necesidad editorial de una imagen concreta.
+- Las rutas públicas de la web siguen centralizadas en `restaurantData.assets` al principio de `main.js`.
 
 Rutas centralizadas actuales:
 

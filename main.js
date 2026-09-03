@@ -26,17 +26,17 @@ const restaurantData = {
   legalUrl: "",
   privacyUrl: "",
   assets: {
-    hero: "/img/hero-la-villa-sevirol.jpg",
-    interior: "/img/interior-salon-01.jpg",
-    breakfast: "/img/desayuno-01.jpg",
-    lunch: "/img/almuerzo-01.jpg",
-    dinner: "/img/cena-01.jpg",
-    dishOne: "/img/plato-01.jpg",
-    dishTwo: "/img/plato-02.jpg",
-    dishThree: "/img/plato-03.jpg",
-    instagramOne: "/img/instagram-01.jpg",
-    instagramTwo: "/img/instagram-02.jpg",
-    instagramThree: "/img/instagram-03.jpg"
+    hero: "img/hero-la-villa-sevirol.jpg",
+    interior: "img/interior-salon-01.jpg",
+    breakfast: "img/desayuno-01.jpg",
+    lunch: "img/almuerzo-01.jpg",
+    dinner: "img/cena-01.jpg",
+    dishOne: "img/plato-01.jpg",
+    dishTwo: "img/plato-02.jpg",
+    dishThree: "img/plato-03.jpg",
+    instagramOne: "img/instagram-01.jpg",
+    instagramTwo: "img/instagram-02.jpg",
+    instagramThree: "img/instagram-03.jpg"
   }
 };
 
